@@ -10,13 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-//        ZStack{
-//
-//            Image("back")
-//                .resizable()
+        ZStack{
+
+            Image("back")
+              .resizable()
+              .ignoresSafeArea()
 //                .frame(width:800,height:800)
-//             //   .cornerRadius(100)
-//
+//                .cornerRadius(100)
+
             VStack {
        
                 ZStack{
@@ -46,7 +47,7 @@ struct ContentView: View {
             }
             .padding()
         }
-   // }
+    }
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
